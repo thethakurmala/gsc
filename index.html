@@ -1,0 +1,115 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Gyansarowar Academic</title>
+  <style>
+    body {
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      background: linear-gradient(135deg, #f9f9f9, #cce7ff);
+      margin: 0;
+      padding: 0;
+      color: #333;
+    }
+    header {
+      background-color: #003366;
+      color: white;
+      padding: 20px 0;
+      text-align: center;
+    }
+    marquee {
+      font-size: 18px;
+      color: #0055aa;
+      background-color: #e0f7fa;
+      padding: 10px;
+    }
+    .container {
+      max-width: 1200px;
+      margin: auto;
+      padding: 20px;
+    }
+    .section {
+      margin-bottom: 40px;
+    }
+    h2 {
+      color: #004d99;
+    }
+    .image-section img {
+      max-width: 100%;
+      border-radius: 15px;
+      box-shadow: 0 4px 10px rgba(0,0,0,0.2);
+    }
+    footer {
+      background-color: #003366;
+      color: white;
+      text-align: center;
+      padding: 10px;
+    }
+    .popup {
+      position: fixed;
+      top: 20px;
+      left: 50%;
+      transform: translateX(-50%);
+      background: #fff;
+      border: 2px solid #004d99;
+      padding: 15px;
+      border-radius: 10px;
+      box-shadow: 0 5px 15px rgba(0,0,0,0.3);
+      z-index: 9999;
+      display: none;
+    }
+  </style>
+  <script>
+    window.onload = function() {
+      const popup = document.getElementById('welcomePopup');
+      popup.style.display = 'block';
+      setTimeout(() => popup.style.display = 'none', 5000);
+    }
+  </script>
+</head>
+<body>
+  <div id="welcomePopup" class="popup">
+    Welcome to Gyansarowar Academic!
+  </div>
+
+  <header>
+    <h1>Gyansarowar Academic</h1>
+    <p>Address: Paharpur, Areraj Motihari, 845458</p>
+  </header>
+
+  <marquee>📚 Welcome to Gyansarowar Academic - Teaching from Class 5 to 12, Competitive & Computer Classes | Medium: Hindi & English 📚</marquee>
+
+  <div class="container">
+    <div class="section">
+      <h2>About Us</h2>
+      <p>Gyansarowar Academic is dedicated to delivering quality education from Class 5 to 12, along with competitive exam preparation and computer courses. We provide bilingual instruction in Hindi and English, ensuring inclusive and accessible learning for all.</p>
+    </div>
+
+    <div class="section image-section">
+      <h2>Our Campus & Classes</h2>
+      <img src="https://via.placeholder.com/1000x400.png?text=AI+Generated+Campus+Image" alt="Campus Image">
+    </div>
+
+    <div class="section">
+      <h2>Courses Offered</h2>
+      <ul>
+        <li>Class 5 to 12 (All Subjects)</li>
+        <li>Competitive Exam Coaching</li>
+        <li>Basic & Advanced Computer Classes</li>
+      </ul>
+    </div>
+
+    <div class="section">
+      <h2>Contact Us</h2>
+      <p>Email: info@gyansarowar.in</p>
+      <p>Phone: +91-1234567890</p>
+    </div>
+  </div>
+
+  <footer>
+    <p>&copy; 2025 Gyansarowar Academic. All rights reserved.</p>
+  </footer>
+</body>
+</html>
